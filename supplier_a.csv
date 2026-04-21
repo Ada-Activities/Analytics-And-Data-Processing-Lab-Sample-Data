@@ -1,6 +1,51 @@
-product_id,product_name,category,qty_available,unit_price,last_updated
-PROD_001,Weekly Planner,planners,142,14.99,2024-11-01
-PROD_002,Bullet Journal,journals,87,18.49,2024-11-01
-PROD_003,Kraft Notebook,notebooks,203,9.99,2024-11-01
-PROD_004,Brush Marker Set,markers,56,24.99,2024-11-01
-PROD_005,Pastel Sticky Notes,accessories,310,5.49,2024-11-01
+product_id,product_name,category,qty_available,unit_price,last_updated,warehouse_location,reorder_threshold
+PROD_001,Weekly Planner,planners,221,19.99,2024-10-25,WH-SEA-02,58
+PROD_002,Bullet Journal,journals,106,18.49,2024-10-15,WH-SEA-02,28
+PROD_003,Kraft Notebook,notebooks,8,9.99,2024-10-06,WH-SFO-03,66
+PROD_004,Brush Marker Set,markers,211,24.99,2024-11-03,WH-PDX-01,80
+PROD_005,Pastel Sticky Notes,accessories,334,5.49,2024-11-01,WH-SEA-02,46
+PROD_006,Mechanical Pencil,pencils,384,7.99,2024-11-09,WH-SEA-02,70
+PROD_007,Gel Pen Set,pens,22,12.49,2024-11-20,WH-SFO-03,72
+PROD_008,Washi Tape Set,accessories,213,8.99,2024-11-25,WH-SEA-02,29
+PROD_009,Desk Organizer,accessories,4,21.99,2024-11-12,WH-SEA-02,74
+PROD_010,Cork Board,accessories,305,29.99,2024-10-22,WH-PDX-01,80
+PROD_011,Fountain Pen,pens,180,39.99,2024-11-03,WH-PDX-01,50
+PROD_012,Watercolor Set,art,210,34.99,2024-10-26,WH-PDX-01,37
+PROD_013,Spiral Notebook,notebooks,300,8.49,2024-10-01,WH-LAX-04,33
+PROD_014,Index Cards,accessories,200,3.99,2024-11-29,WH-PDX-01,49
+PROD_015,Highlighter Set,markers,280,10.99,2024-11-27,WH-SEA-02,58
+PROD_016,Stapler,accessories,251,14.99,2024-10-04,WH-SFO-03,28
+PROD_017,Tape Dispenser,accessories,125,9.49,2024-11-30,WH-SEA-02,67
+PROD_018,Pencil Case,accessories,420,11.99,2024-10-29,WH-SEA-02,80
+PROD_019,Binder Clips Pack,accessories,272,4.49,2024-11-12,WH-SEA-02,22
+PROD_020,Paper Clips Box,accessories,71,2.99,2024-10-02,WH-SEA-02,50
+PROD_021,Brass Ruler,accessories,365,12.99,2024-11-22,WH-LAX-04,25
+PROD_022,Craft Scissors,accessories,494,8.99,2024-10-28,WH-PDX-01,29
+PROD_023,Glue Stick Set,accessories,173,5.99,2024-11-09,WH-PDX-01,44
+PROD_024,Correction Tape,accessories,183,4.99,2024-10-09,WH-LAX-04,32
+PROD_025,Label Maker,accessories,475,32.99,2024-11-20,WH-PDX-01,60
+PROD_026,Sticky Note Dispenser,accessories,123,14.99,2024-10-29,WH-SFO-03,54
+PROD_027,Leather Desk Pad,accessories,221,44.99,2024-11-22,WH-SEA-02,42
+PROD_028,Wall Calendar,planners,496,16.99,2024-11-14,WH-LAX-04,79
+PROD_029,A5 Dotted Notebook,notebooks,43,11.99,2024-10-09,WH-SEA-02,58
+PROD_030,Leather Journal,journals,496,32.99,2024-10-27,WH-PDX-01,26
+PROD_031,Calligraphy Pen Set,pens,75,27.99,2024-10-10,WH-SFO-03,31
+PROD_032,Pastel Highlighters,markers,105,9.99,2024-10-27,WH-SEA-02,79
+PROD_033,Hardcover Sketchbook,art,121,18.99,2024-11-26,WH-SFO-03,69
+PROD_034,Pencil Sharpener,pencils,270,5.99,2024-11-21,WH-SEA-02,74
+PROD_035,Eraser Set,pencils,146,4.49,2024-10-08,WH-SFO-03,31
+PROD_036,Drawing Compass,accessories,362,10.99,2024-10-05,WH-SFO-03,20
+PROD_037,Memo Pad Set,accessories,314,6.99,2024-11-23,WH-PDX-01,41
+PROD_038,Desktop Calendar,planners,125,13.99,2024-10-25,WH-LAX-04,41
+PROD_039,Colored Pencil Set,art,436,19.99,2024-11-21,WH-LAX-04,44
+PROD_040,Fine Liner Set,pens,227,16.99,2024-11-22,WH-SFO-03,54
+PROD_041,Acrylic Paint Set,art,62,29.99,2024-10-12,WH-PDX-01,79
+PROD_042,Brush Set,art,205,22.99,2024-11-16,WH-LAX-04,69
+PROD_043,Watercolor Paper Pad,art,242,14.99,2024-10-15,WH-SFO-03,74
+PROD_044,Sticky Flag Set,accessories,350,4.99,2024-10-15,WH-SFO-03,26
+PROD_045,Binding Machine,accessories,462,89.99,2024-11-14,WH-SFO-03,33
+PROD_046,Laminator,accessories,406,64.99,2024-11-21,WH-SEA-02,44
+PROD_047,Hole Punch,accessories,166,18.99,2024-10-29,WH-PDX-01,76
+PROD_048,Magnetic Whiteboard,accessories,239,49.99,2024-10-27,WH-SFO-03,24
+PROD_049,Whiteboard Markers,markers,272,8.99,2024-10-19,WH-SFO-03,70
+PROD_050,Dry Erase Eraser,accessories,259,5.99,2024-11-04,WH-SEA-02,79

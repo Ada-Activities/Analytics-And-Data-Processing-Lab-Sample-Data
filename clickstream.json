@@ -1,43 +1,802 @@
 [
-  {"session_id": "sess_001", "user_id": "usr_101", "event_type": "page_view", "product_id": null, "page": "/home", "timestamp": "2024-11-01T08:12:04Z"},
-  {"session_id": "sess_001", "user_id": "usr_101", "event_type": "page_view", "product_id": "PROD_003", "page": "/products/kraft-notebook", "timestamp": "2024-11-01T08:12:41Z"},
-  {"session_id": "sess_001", "user_id": "usr_101", "event_type": "add_to_cart", "product_id": "PROD_003", "page": "/products/kraft-notebook", "timestamp": "2024-11-01T08:13:10Z"},
-  {"session_id": "sess_001", "user_id": "usr_101", "event_type": "page_view", "product_id": "PROD_007", "page": "/products/gel-pen-set", "timestamp": "2024-11-01T08:14:02Z"},
-  {"session_id": "sess_001", "user_id": "usr_101", "event_type": "add_to_cart", "product_id": "PROD_007", "page": "/products/gel-pen-set", "timestamp": "2024-11-01T08:14:30Z"},
-  {"session_id": "sess_001", "user_id": "usr_101", "event_type": "checkout_start", "product_id": null, "page": "/checkout", "timestamp": "2024-11-01T08:15:00Z"},
-
-  {"session_id": "sess_002", "user_id": "usr_204", "event_type": "page_view", "product_id": null, "page": "/home", "timestamp": "2024-11-01T09:03:17Z"},
-  {"session_id": "sess_002", "user_id": "usr_204", "event_type": "page_view", "product_id": "PROD_001", "page": "/products/weekly-planner", "timestamp": "2024-11-01T09:04:05Z"},
-  {"session_id": "sess_002", "user_id": "usr_204", "event_type": "page_view", "product_id": "PROD_002", "page": "/products/bullet-journal", "timestamp": "2024-11-01T09:05:22Z"},
-  {"session_id": "sess_002", "user_id": "usr_204", "event_type": "add_to_cart", "product_id": "PROD_002", "page": "/products/bullet-journal", "timestamp": "2024-11-01T09:06:01Z"},
-  {"session_id": "sess_002", "user_id": "usr_204", "event_type": "page_view", "product_id": "PROD_003", "page": "/products/kraft-notebook", "timestamp": "2024-11-01T09:07:14Z"},
-  {"session_id": "sess_002", "user_id": "usr_204", "event_type": "add_to_cart", "product_id": "PROD_003", "page": "/products/kraft-notebook", "timestamp": "2024-11-01T09:07:45Z"},
-  {"session_id": "sess_002", "user_id": "usr_204", "event_type": "checkout_start", "product_id": null, "page": "/checkout", "timestamp": "2024-11-01T09:08:30Z"},
-
-  {"session_id": "sess_003", "user_id": "usr_317", "event_type": "page_view", "product_id": null, "page": "/sale", "timestamp": "2024-11-01T10:22:09Z"},
-  {"session_id": "sess_003", "user_id": "usr_317", "event_type": "page_view", "product_id": "PROD_005", "page": "/products/pastel-sticky-notes", "timestamp": "2024-11-01T10:22:55Z"},
-  {"session_id": "sess_003", "user_id": "usr_317", "event_type": "add_to_cart", "product_id": "PROD_005", "page": "/products/pastel-sticky-notes", "timestamp": "2024-11-01T10:23:20Z"},
-  {"session_id": "sess_003", "user_id": "usr_317", "event_type": "page_view", "product_id": "PROD_008", "page": "/products/washi-tape-set", "timestamp": "2024-11-01T10:24:10Z"},
-  {"session_id": "sess_003", "user_id": "usr_317", "event_type": "add_to_cart", "product_id": "PROD_008", "page": "/products/washi-tape-set", "timestamp": "2024-11-01T10:24:50Z"},
-  {"session_id": "sess_003", "user_id": "usr_317", "event_type": "add_to_cart", "product_id": "PROD_007", "page": "/products/gel-pen-set", "timestamp": "2024-11-01T10:25:30Z"},
-  {"session_id": "sess_003", "user_id": "usr_317", "event_type": "checkout_start", "product_id": null, "page": "/checkout", "timestamp": "2024-11-01T10:26:00Z"},
-
-  {"session_id": "sess_004", "user_id": "usr_412", "event_type": "page_view", "product_id": null, "page": "/home", "timestamp": "2024-11-01T11:05:33Z"},
-  {"session_id": "sess_004", "user_id": "usr_412", "event_type": "page_view", "product_id": "PROD_006", "page": "/products/mechanical-pencil", "timestamp": "2024-11-01T11:06:14Z"},
-  {"session_id": "sess_004", "user_id": "usr_412", "event_type": "page_view", "product_id": "PROD_007", "page": "/products/gel-pen-set", "timestamp": "2024-11-01T11:07:02Z"},
-  {"session_id": "sess_004", "user_id": "usr_412", "event_type": "page_view", "product_id": "PROD_003", "page": "/products/kraft-notebook", "timestamp": "2024-11-01T11:08:10Z"},
-  {"session_id": "sess_004", "user_id": "usr_412", "event_type": "add_to_cart", "product_id": "PROD_003", "page": "/products/kraft-notebook", "timestamp": "2024-11-01T11:08:45Z"},
-
-  {"session_id": "sess_005", "user_id": "usr_519", "event_type": "page_view", "product_id": null, "page": "/home", "timestamp": "2024-11-01T13:44:02Z"},
-  {"session_id": "sess_005", "user_id": "usr_519", "event_type": "page_view", "product_id": "PROD_009", "page": "/products/desk-organizer", "timestamp": "2024-11-01T13:44:50Z"},
-  {"session_id": "sess_005", "user_id": "usr_519", "event_type": "page_view", "product_id": "PROD_010", "page": "/products/cork-board", "timestamp": "2024-11-01T13:46:05Z"},
-  {"session_id": "sess_005", "user_id": "usr_519", "event_type": "add_to_cart", "product_id": "PROD_010", "page": "/products/cork-board", "timestamp": "2024-11-01T13:46:40Z"},
-  {"session_id": "sess_005", "user_id": "usr_519", "event_type": "add_to_cart", "product_id": "PROD_009", "page": "/products/desk-organizer", "timestamp": "2024-11-01T13:47:10Z"},
-  {"session_id": "sess_005", "user_id": "usr_519", "event_type": "checkout_start", "product_id": null, "page": "/checkout", "timestamp": "2024-11-01T13:47:55Z"},
-
-  {"session_id": "sess_006", "user_id": "usr_101", "event_type": "page_view", "product_id": null, "page": "/home", "timestamp": "2024-11-02T09:30:11Z"},
-  {"session_id": "sess_006", "user_id": "usr_101", "event_type": "page_view", "product_id": "PROD_004", "page": "/products/brush-marker-set", "timestamp": "2024-11-02T09:30:58Z"},
-  {"session_id": "sess_006", "user_id": "usr_101", "event_type": "add_to_cart", "product_id": "PROD_004", "page": "/products/brush-marker-set", "timestamp": "2024-11-02T09:31:30Z"},
-  {"session_id": "sess_006", "user_id": "usr_101", "event_type": "add_to_cart", "product_id": "PROD_007", "page": "/products/gel-pen-set", "timestamp": "2024-11-02T09:32:10Z"},
-  {"session_id": "sess_006", "user_id": "usr_101", "event_type": "checkout_start", "product_id": null, "page": "/checkout", "timestamp": "2024-11-02T09:33:00Z"}
+  {
+    "session_id": "sess_001",
+    "user_id": "usr_125",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/categories",
+    "timestamp": "2024-10-04T10:53:09Z"
+  },
+  {
+    "session_id": "sess_001",
+    "user_id": "usr_125",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_004",
+    "page": "/products/brush-marker-set",
+    "timestamp": "2024-10-04T10:54:03Z"
+  },
+  {
+    "session_id": "sess_001",
+    "user_id": "usr_125",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-10-04T10:54:53Z"
+  },
+  {
+    "session_id": "sess_002",
+    "user_id": "usr_106",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/home",
+    "timestamp": "2024-11-26T05:50:31Z"
+  },
+  {
+    "session_id": "sess_002",
+    "user_id": "usr_106",
+    "event_type": "page_view",
+    "product_id": "PROD_043",
+    "page": "/products/watercolor-paper-pad",
+    "timestamp": "2024-11-26T05:52:14Z"
+  },
+  {
+    "session_id": "sess_002",
+    "user_id": "usr_106",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_001",
+    "page": "/products/weekly-planner",
+    "timestamp": "2024-11-26T05:54:50Z"
+  },
+  {
+    "session_id": "sess_002",
+    "user_id": "usr_106",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-11-26T05:55:30Z"
+  },
+  {
+    "session_id": "sess_003",
+    "user_id": "usr_120",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/sale",
+    "timestamp": "2024-11-13T10:57:11Z"
+  },
+  {
+    "session_id": "sess_003",
+    "user_id": "usr_120",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_017",
+    "page": "/products/tape-dispenser",
+    "timestamp": "2024-11-13T10:57:45Z"
+  },
+  {
+    "session_id": "sess_003",
+    "user_id": "usr_120",
+    "event_type": "page_view",
+    "product_id": "PROD_096",
+    "page": "/products/canvas-boards-set",
+    "timestamp": "2024-11-13T11:00:02Z"
+  },
+  {
+    "session_id": "sess_003",
+    "user_id": "usr_120",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-11-13T11:02:16Z"
+  },
+  {
+    "session_id": "sess_004",
+    "user_id": "usr_107",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/sale",
+    "timestamp": "2024-10-16T20:17:31Z"
+  },
+  {
+    "session_id": "sess_004",
+    "user_id": "usr_107",
+    "event_type": "page_view",
+    "product_id": "PROD_041",
+    "page": "/products/acrylic-paint-set",
+    "timestamp": "2024-10-16T20:18:47Z"
+  },
+  {
+    "session_id": "sess_004",
+    "user_id": "usr_107",
+    "event_type": "page_view",
+    "product_id": "PROD_041",
+    "page": "/products/acrylic-paint-set",
+    "timestamp": "2024-10-16T20:20:22Z"
+  },
+  {
+    "session_id": "sess_005",
+    "user_id": "usr_121",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/sale",
+    "timestamp": "2024-10-03T16:28:03Z"
+  },
+  {
+    "session_id": "sess_005",
+    "user_id": "usr_121",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_089",
+    "page": "/products/paint-marker-set",
+    "timestamp": "2024-10-03T16:29:32Z"
+  },
+  {
+    "session_id": "sess_005",
+    "user_id": "usr_121",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-10-03T16:30:27Z"
+  },
+  {
+    "session_id": "sess_006",
+    "user_id": "usr_107",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/sale",
+    "timestamp": "2024-11-27T05:10:00Z"
+  },
+  {
+    "session_id": "sess_006",
+    "user_id": "usr_107",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_006",
+    "page": "/products/mechanical-pencil",
+    "timestamp": "2024-11-27T05:12:44Z"
+  },
+  {
+    "session_id": "sess_006",
+    "user_id": "usr_107",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-11-27T05:15:01Z"
+  },
+  {
+    "session_id": "sess_007",
+    "user_id": "usr_118",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/new-arrivals",
+    "timestamp": "2024-10-05T07:17:05Z"
+  },
+  {
+    "session_id": "sess_007",
+    "user_id": "usr_118",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_031",
+    "page": "/products/calligraphy-pen-set",
+    "timestamp": "2024-10-05T07:18:23Z"
+  },
+  {
+    "session_id": "sess_007",
+    "user_id": "usr_118",
+    "event_type": "remove_from_cart",
+    "product_id": "PROD_049",
+    "page": "/products/whiteboard-markers",
+    "timestamp": "2024-10-05T07:19:40Z"
+  },
+  {
+    "session_id": "sess_007",
+    "user_id": "usr_118",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_031",
+    "page": "/products/calligraphy-pen-set",
+    "timestamp": "2024-10-05T07:21:15Z"
+  },
+  {
+    "session_id": "sess_007",
+    "user_id": "usr_118",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_003",
+    "page": "/products/kraft-notebook",
+    "timestamp": "2024-10-05T07:23:00Z"
+  },
+  {
+    "session_id": "sess_007",
+    "user_id": "usr_118",
+    "event_type": "page_view",
+    "product_id": "PROD_093",
+    "page": "/products/soft-pastel-set",
+    "timestamp": "2024-10-05T07:23:59Z"
+  },
+  {
+    "session_id": "sess_008",
+    "user_id": "usr_110",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/home",
+    "timestamp": "2024-11-03T08:13:34Z"
+  },
+  {
+    "session_id": "sess_008",
+    "user_id": "usr_110",
+    "event_type": "page_view",
+    "product_id": "PROD_093",
+    "page": "/products/soft-pastel-set",
+    "timestamp": "2024-11-03T08:15:41Z"
+  },
+  {
+    "session_id": "sess_008",
+    "user_id": "usr_110",
+    "event_type": "page_view",
+    "product_id": "PROD_001",
+    "page": "/products/weekly-planner",
+    "timestamp": "2024-11-03T08:17:32Z"
+  },
+  {
+    "session_id": "sess_008",
+    "user_id": "usr_110",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-11-03T08:18:41Z"
+  },
+  {
+    "session_id": "sess_009",
+    "user_id": "usr_101",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/home",
+    "timestamp": "2024-10-02T05:15:35Z"
+  },
+  {
+    "session_id": "sess_009",
+    "user_id": "usr_101",
+    "event_type": "page_view",
+    "product_id": "PROD_001",
+    "page": "/products/weekly-planner",
+    "timestamp": "2024-10-02T05:17:39Z"
+  },
+  {
+    "session_id": "sess_009",
+    "user_id": "usr_101",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-10-02T05:19:45Z"
+  },
+  {
+    "session_id": "sess_010",
+    "user_id": "usr_121",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/new-arrivals",
+    "timestamp": "2024-10-17T10:46:48Z"
+  },
+  {
+    "session_id": "sess_010",
+    "user_id": "usr_121",
+    "event_type": "page_view",
+    "product_id": "PROD_009",
+    "page": "/products/desk-organizer",
+    "timestamp": "2024-10-17T10:48:41Z"
+  },
+  {
+    "session_id": "sess_010",
+    "user_id": "usr_121",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-10-17T10:50:29Z"
+  },
+  {
+    "session_id": "sess_011",
+    "user_id": "usr_108",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/home",
+    "timestamp": "2024-10-14T14:43:29Z"
+  },
+  {
+    "session_id": "sess_011",
+    "user_id": "usr_108",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_009",
+    "page": "/products/desk-organizer",
+    "timestamp": "2024-10-14T14:45:11Z"
+  },
+  {
+    "session_id": "sess_011",
+    "user_id": "usr_108",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_009",
+    "page": "/products/desk-organizer",
+    "timestamp": "2024-10-14T14:47:34Z"
+  },
+  {
+    "session_id": "sess_011",
+    "user_id": "usr_108",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_046",
+    "page": "/products/laminator",
+    "timestamp": "2024-10-14T14:49:26Z"
+  },
+  {
+    "session_id": "sess_011",
+    "user_id": "usr_108",
+    "event_type": "remove_from_cart",
+    "product_id": "PROD_046",
+    "page": "/products/laminator",
+    "timestamp": "2024-10-14T14:52:12Z"
+  },
+  {
+    "session_id": "sess_011",
+    "user_id": "usr_108",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-10-14T14:54:23Z"
+  },
+  {
+    "session_id": "sess_012",
+    "user_id": "usr_103",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/sale",
+    "timestamp": "2024-11-07T08:32:01Z"
+  },
+  {
+    "session_id": "sess_012",
+    "user_id": "usr_103",
+    "event_type": "page_view",
+    "product_id": "PROD_015",
+    "page": "/products/highlighter-set",
+    "timestamp": "2024-11-07T08:34:19Z"
+  },
+  {
+    "session_id": "sess_012",
+    "user_id": "usr_103",
+    "event_type": "page_view",
+    "product_id": "PROD_045",
+    "page": "/products/binding-machine",
+    "timestamp": "2024-11-07T08:36:11Z"
+  },
+  {
+    "session_id": "sess_012",
+    "user_id": "usr_103",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_003",
+    "page": "/products/kraft-notebook",
+    "timestamp": "2024-11-07T08:37:08Z"
+  },
+  {
+    "session_id": "sess_013",
+    "user_id": "usr_110",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/home",
+    "timestamp": "2024-10-12T04:54:57Z"
+  },
+  {
+    "session_id": "sess_013",
+    "user_id": "usr_110",
+    "event_type": "remove_from_cart",
+    "product_id": "PROD_003",
+    "page": "/products/kraft-notebook",
+    "timestamp": "2024-10-12T04:55:46Z"
+  },
+  {
+    "session_id": "sess_013",
+    "user_id": "usr_110",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_003",
+    "page": "/products/kraft-notebook",
+    "timestamp": "2024-10-12T04:57:33Z"
+  },
+  {
+    "session_id": "sess_013",
+    "user_id": "usr_110",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_003",
+    "page": "/products/kraft-notebook",
+    "timestamp": "2024-10-12T04:58:43Z"
+  },
+  {
+    "session_id": "sess_013",
+    "user_id": "usr_110",
+    "event_type": "page_view",
+    "product_id": "PROD_100",
+    "page": "/products/portfolio-case",
+    "timestamp": "2024-10-12T04:59:21Z"
+  },
+  {
+    "session_id": "sess_013",
+    "user_id": "usr_110",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_003",
+    "page": "/products/kraft-notebook",
+    "timestamp": "2024-10-12T05:01:31Z"
+  },
+  {
+    "session_id": "sess_014",
+    "user_id": "usr_107",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/sale",
+    "timestamp": "2024-11-24T16:22:31Z"
+  },
+  {
+    "session_id": "sess_014",
+    "user_id": "usr_107",
+    "event_type": "page_view",
+    "product_id": "PROD_009",
+    "page": "/products/desk-organizer",
+    "timestamp": "2024-11-24T16:24:31Z"
+  },
+  {
+    "session_id": "sess_014",
+    "user_id": "usr_107",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_009",
+    "page": "/products/desk-organizer",
+    "timestamp": "2024-11-24T16:26:52Z"
+  },
+  {
+    "session_id": "sess_014",
+    "user_id": "usr_107",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-11-24T16:28:48Z"
+  },
+  {
+    "session_id": "sess_015",
+    "user_id": "usr_124",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/home",
+    "timestamp": "2024-10-26T18:50:56Z"
+  },
+  {
+    "session_id": "sess_015",
+    "user_id": "usr_124",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_023",
+    "page": "/products/glue-stick-set",
+    "timestamp": "2024-10-26T18:52:15Z"
+  },
+  {
+    "session_id": "sess_015",
+    "user_id": "usr_124",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_023",
+    "page": "/products/glue-stick-set",
+    "timestamp": "2024-10-26T18:54:01Z"
+  },
+  {
+    "session_id": "sess_016",
+    "user_id": "usr_123",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/categories",
+    "timestamp": "2024-10-20T05:54:21Z"
+  },
+  {
+    "session_id": "sess_016",
+    "user_id": "usr_123",
+    "event_type": "page_view",
+    "product_id": "PROD_001",
+    "page": "/products/weekly-planner",
+    "timestamp": "2024-10-20T05:56:16Z"
+  },
+  {
+    "session_id": "sess_016",
+    "user_id": "usr_123",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_004",
+    "page": "/products/brush-marker-set",
+    "timestamp": "2024-10-20T05:57:50Z"
+  },
+  {
+    "session_id": "sess_016",
+    "user_id": "usr_123",
+    "event_type": "page_view",
+    "product_id": "PROD_003",
+    "page": "/products/kraft-notebook",
+    "timestamp": "2024-10-20T05:59:49Z"
+  },
+  {
+    "session_id": "sess_017",
+    "user_id": "usr_111",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/sale",
+    "timestamp": "2024-11-14T17:46:29Z"
+  },
+  {
+    "session_id": "sess_017",
+    "user_id": "usr_111",
+    "event_type": "page_view",
+    "product_id": "PROD_049",
+    "page": "/products/whiteboard-markers",
+    "timestamp": "2024-11-14T17:48:27Z"
+  },
+  {
+    "session_id": "sess_017",
+    "user_id": "usr_111",
+    "event_type": "page_view",
+    "product_id": "PROD_049",
+    "page": "/products/whiteboard-markers",
+    "timestamp": "2024-11-14T17:51:09Z"
+  },
+  {
+    "session_id": "sess_017",
+    "user_id": "usr_111",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_049",
+    "page": "/products/whiteboard-markers",
+    "timestamp": "2024-11-14T17:51:43Z"
+  },
+  {
+    "session_id": "sess_017",
+    "user_id": "usr_111",
+    "event_type": "page_view",
+    "product_id": "PROD_080",
+    "page": "/products/binder-spine-labels",
+    "timestamp": "2024-11-14T17:52:52Z"
+  },
+  {
+    "session_id": "sess_017",
+    "user_id": "usr_111",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-11-14T17:53:39Z"
+  },
+  {
+    "session_id": "sess_018",
+    "user_id": "usr_122",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/new-arrivals",
+    "timestamp": "2024-11-05T09:56:13Z"
+  },
+  {
+    "session_id": "sess_018",
+    "user_id": "usr_122",
+    "event_type": "remove_from_cart",
+    "product_id": "PROD_069",
+    "page": "/products/monitor-stand",
+    "timestamp": "2024-11-05T09:56:51Z"
+  },
+  {
+    "session_id": "sess_018",
+    "user_id": "usr_122",
+    "event_type": "page_view",
+    "product_id": "PROD_039",
+    "page": "/products/colored-pencil-set",
+    "timestamp": "2024-11-05T09:59:09Z"
+  },
+  {
+    "session_id": "sess_019",
+    "user_id": "usr_121",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/home",
+    "timestamp": "2024-10-06T15:26:31Z"
+  },
+  {
+    "session_id": "sess_019",
+    "user_id": "usr_121",
+    "event_type": "remove_from_cart",
+    "product_id": "PROD_016",
+    "page": "/products/stapler",
+    "timestamp": "2024-10-06T15:28:08Z"
+  },
+  {
+    "session_id": "sess_019",
+    "user_id": "usr_121",
+    "event_type": "page_view",
+    "product_id": "PROD_009",
+    "page": "/products/desk-organizer",
+    "timestamp": "2024-10-06T15:30:12Z"
+  },
+  {
+    "session_id": "sess_019",
+    "user_id": "usr_121",
+    "event_type": "page_view",
+    "product_id": "PROD_089",
+    "page": "/products/paint-marker-set",
+    "timestamp": "2024-10-06T15:31:42Z"
+  },
+  {
+    "session_id": "sess_019",
+    "user_id": "usr_121",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-10-06T15:33:26Z"
+  },
+  {
+    "session_id": "sess_020",
+    "user_id": "usr_109",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/new-arrivals",
+    "timestamp": "2024-10-27T04:11:32Z"
+  },
+  {
+    "session_id": "sess_020",
+    "user_id": "usr_109",
+    "event_type": "page_view",
+    "product_id": "PROD_009",
+    "page": "/products/desk-organizer",
+    "timestamp": "2024-10-27T04:12:38Z"
+  },
+  {
+    "session_id": "sess_020",
+    "user_id": "usr_109",
+    "event_type": "page_view",
+    "product_id": "PROD_059",
+    "page": "/products/mailing-labels",
+    "timestamp": "2024-10-27T04:15:29Z"
+  },
+  {
+    "session_id": "sess_021",
+    "user_id": "usr_113",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/categories",
+    "timestamp": "2024-10-06T11:02:59Z"
+  },
+  {
+    "session_id": "sess_021",
+    "user_id": "usr_113",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_032",
+    "page": "/products/pastel-highlighters",
+    "timestamp": "2024-10-06T11:03:46Z"
+  },
+  {
+    "session_id": "sess_021",
+    "user_id": "usr_113",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-10-06T11:04:49Z"
+  },
+  {
+    "session_id": "sess_022",
+    "user_id": "usr_112",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/sale",
+    "timestamp": "2024-11-19T23:36:27Z"
+  },
+  {
+    "session_id": "sess_022",
+    "user_id": "usr_112",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_007",
+    "page": "/products/gel-pen-set",
+    "timestamp": "2024-11-19T23:39:11Z"
+  },
+  {
+    "session_id": "sess_022",
+    "user_id": "usr_112",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_001",
+    "page": "/products/weekly-planner",
+    "timestamp": "2024-11-19T23:39:41Z"
+  },
+  {
+    "session_id": "sess_023",
+    "user_id": "usr_105",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/home",
+    "timestamp": "2024-11-10T13:12:31Z"
+  },
+  {
+    "session_id": "sess_023",
+    "user_id": "usr_105",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_096",
+    "page": "/products/canvas-boards-set",
+    "timestamp": "2024-11-10T13:14:18Z"
+  },
+  {
+    "session_id": "sess_023",
+    "user_id": "usr_105",
+    "event_type": "page_view",
+    "product_id": "PROD_039",
+    "page": "/products/colored-pencil-set",
+    "timestamp": "2024-11-10T13:15:51Z"
+  },
+  {
+    "session_id": "sess_023",
+    "user_id": "usr_105",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_089",
+    "page": "/products/paint-marker-set",
+    "timestamp": "2024-11-10T13:17:56Z"
+  },
+  {
+    "session_id": "sess_023",
+    "user_id": "usr_105",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-11-10T13:19:38Z"
+  },
+  {
+    "session_id": "sess_024",
+    "user_id": "usr_123",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/sale",
+    "timestamp": "2024-11-27T04:47:45Z"
+  },
+  {
+    "session_id": "sess_024",
+    "user_id": "usr_123",
+    "event_type": "page_view",
+    "product_id": "PROD_042",
+    "page": "/products/brush-set",
+    "timestamp": "2024-11-27T04:50:01Z"
+  },
+  {
+    "session_id": "sess_024",
+    "user_id": "usr_123",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_042",
+    "page": "/products/brush-set",
+    "timestamp": "2024-11-27T04:51:36Z"
+  },
+  {
+    "session_id": "sess_024",
+    "user_id": "usr_123",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_042",
+    "page": "/products/brush-set",
+    "timestamp": "2024-11-27T04:53:45Z"
+  },
+  {
+    "session_id": "sess_024",
+    "user_id": "usr_123",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-11-27T04:55:21Z"
+  },
+  {
+    "session_id": "sess_025",
+    "user_id": "usr_110",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/sale",
+    "timestamp": "2024-10-31T00:36:21Z"
+  },
+  {
+    "session_id": "sess_025",
+    "user_id": "usr_110",
+    "event_type": "page_view",
+    "product_id": "PROD_008",
+    "page": "/products/washi-tape-set",
+    "timestamp": "2024-10-31T00:38:07Z"
+  },
+  {
+    "session_id": "sess_025",
+    "user_id": "usr_110",
+    "event_type": "checkout_start",
+    "product_id": null,
+    "page": "/checkout",
+    "timestamp": "2024-10-31T00:40:08Z"
+  },
+  {
+    "session_id": "sess_026",
+    "user_id": "usr_109",
+    "event_type": "page_view",
+    "product_id": null,
+    "page": "/sale",
+    "timestamp": "2024-10-24T05:03:04Z"
+  }
 ]

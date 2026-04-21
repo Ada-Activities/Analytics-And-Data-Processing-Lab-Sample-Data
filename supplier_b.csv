@@ -1,6 +1,51 @@
-sku,product_name,category,stock,unit_price,last_updated
-PROD_006,Mechanical Pencil,pencils,178,7.99,2024-11-01
-PROD_007,Gel Pen Set,pens,94,12.49,2024-11-01
-PROD_008,Washi Tape Set,accessories,412,8.99,2024-11-01
-PROD_009,Desk Organizer,accessories,33,21.99,2024-11-01
-PROD_010,Cork Board,accessories,19,29.99,2024-11-01
+sku,name,product_category,stock_count,retail_price,updated_at,fulfillment_center,min_stock_level
+PROD_051,Monthly Planner,planners,473,14.99,2024-10-17,FC-SOUTH-D,76
+PROD_052,Grid Notebook,notebooks,163,9.49,2024-10-27,FC-CENTRAL-B,38
+PROD_053,Ink Refill Set,pens,209,11.99,2024-11-13,FC-SOUTH-D,32
+PROD_054,Document Folder,accessories,209,7.99,2024-10-22,FC-CENTRAL-B,42
+PROD_055,Expanding File,accessories,17,12.99,2024-11-12,FC-WEST-C,64
+PROD_056,Ring Binder,accessories,166,9.99,2024-11-24,FC-CENTRAL-B,77
+PROD_057,Sheet Protectors,accessories,355,6.49,2024-11-12,FC-CENTRAL-B,70
+PROD_058,Divider Tabs,accessories,342,4.99,2024-10-17,FC-SOUTH-D,67
+PROD_059,Mailing Labels,accessories,400,5.49,2024-11-25,FC-CENTRAL-B,46
+PROD_060,Address Stamp,accessories,455,19.99,2024-11-25,FC-WEST-C,62
+PROD_061,Ink Pad,accessories,219,8.99,2024-10-01,FC-EAST-A,52
+PROD_062,Wax Seal Kit,accessories,287,24.99,2024-10-13,FC-EAST-A,53
+PROD_063,Letter Opener,accessories,173,11.99,2024-11-30,FC-CENTRAL-B,52
+PROD_064,Paperweight,accessories,416,17.99,2024-11-21,FC-SOUTH-D,79
+PROD_065,Bookmarks Set,accessories,120,6.99,2024-10-17,FC-SOUTH-D,49
+PROD_066,Book Stand,accessories,301,22.99,2024-11-03,FC-WEST-C,32
+PROD_067,Reading Light,accessories,393,18.99,2024-10-02,FC-EAST-A,71
+PROD_068,Pen Holder,accessories,172,13.99,2024-10-05,FC-EAST-A,23
+PROD_069,Monitor Stand,accessories,228,39.99,2024-10-20,FC-WEST-C,55
+PROD_070,Cable Organizer,accessories,335,14.99,2024-11-30,FC-WEST-C,32
+PROD_071,Kraft Envelopes,accessories,402,7.99,2024-10-07,FC-SOUTH-D,45
+PROD_072,Greeting Cards Set,accessories,419,12.99,2024-10-12,FC-WEST-C,49
+PROD_073,Gift Wrapping Paper,accessories,183,9.99,2024-10-09,FC-CENTRAL-B,77
+PROD_074,Ribbon Set,accessories,243,6.99,2024-11-25,FC-SOUTH-D,46
+PROD_075,Twine Roll,accessories,302,4.99,2024-11-15,FC-CENTRAL-B,43
+PROD_076,Masking Tape,accessories,143,5.49,2024-10-14,FC-WEST-C,49
+PROD_077,Double-Sided Tape,accessories,308,6.99,2024-11-24,FC-SOUTH-D,31
+PROD_078,Foam Mounting Tape,accessories,438,7.49,2024-11-28,FC-SOUTH-D,56
+PROD_079,Rubber Bands Box,accessories,472,3.99,2024-11-10,FC-SOUTH-D,62
+PROD_080,Binder Spine Labels,accessories,101,4.49,2024-10-05,FC-CENTRAL-B,49
+PROD_081,Sticky Notes Value Pack,accessories,282,8.99,2024-10-01,FC-EAST-A,41
+PROD_082,Neon Sticky Notes,accessories,422,6.99,2024-11-01,FC-EAST-A,41
+PROD_083,Flag Tape Set,accessories,350,5.99,2024-11-16,FC-EAST-A,56
+PROD_084,Page Marker Clips,accessories,363,7.49,2024-11-04,FC-WEST-C,60
+PROD_085,Bamboo Pen Set,pens,21,22.99,2024-11-07,FC-WEST-C,46
+PROD_086,Rollerball Pen Set,pens,148,18.99,2024-10-11,FC-CENTRAL-B,57
+PROD_087,Felt Tip Pens,pens,486,13.99,2024-10-04,FC-SOUTH-D,22
+PROD_088,Metallic Marker Set,markers,39,16.99,2024-10-22,FC-CENTRAL-B,55
+PROD_089,Paint Marker Set,markers,401,21.99,2024-10-19,FC-CENTRAL-B,73
+PROD_090,Chalk Markers,markers,239,14.99,2024-10-04,FC-SOUTH-D,34
+PROD_091,Charcoal Set,art,427,12.99,2024-10-13,FC-EAST-A,51
+PROD_092,Oil Pastel Set,art,102,14.99,2024-10-18,FC-WEST-C,62
+PROD_093,Soft Pastel Set,art,201,16.99,2024-10-05,FC-CENTRAL-B,69
+PROD_094,Sketching Pencil Set,art,301,11.99,2024-10-12,FC-WEST-C,61
+PROD_095,Mixed Media Pad,art,432,13.99,2024-11-04,FC-EAST-A,67
+PROD_096,Canvas Boards Set,art,362,24.99,2024-10-08,FC-CENTRAL-B,72
+PROD_097,Palette Knife Set,art,85,17.99,2024-10-10,FC-EAST-A,22
+PROD_098,Masking Fluid,art,403,9.99,2024-11-02,FC-SOUTH-D,30
+PROD_099,Artist Tape,art,196,7.99,2024-11-25,FC-CENTRAL-B,59
+PROD_100,Portfolio Case,art,326,49.99,2024-11-18,FC-CENTRAL-B,41
