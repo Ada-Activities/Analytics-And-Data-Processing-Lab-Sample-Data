@@ -1,0 +1,6 @@
+product_id,product_name,category,qty_available,unit_price,last_updated
+PROD_001,Weekly Planner,planners,142,14.99,2024-11-01
+PROD_002,Bullet Journal,journals,87,18.49,2024-11-01
+PROD_003,Kraft Notebook,notebooks,203,9.99,2024-11-01
+PROD_004,Brush Marker Set,markers,56,24.99,2024-11-01
+PROD_005,Pastel Sticky Notes,accessories,310,5.49,2024-11-01

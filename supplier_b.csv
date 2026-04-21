@@ -1,0 +1,6 @@
+sku,product_name,category,stock,unit_price,last_updated
+PROD_006,Mechanical Pencil,pencils,178,7.99,2024-11-01
+PROD_007,Gel Pen Set,pens,94,12.49,2024-11-01
+PROD_008,Washi Tape Set,accessories,412,8.99,2024-11-01
+PROD_009,Desk Organizer,accessories,33,21.99,2024-11-01
+PROD_010,Cork Board,accessories,19,29.99,2024-11-01
